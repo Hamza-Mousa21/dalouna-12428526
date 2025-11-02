@@ -1,0 +1,375 @@
+/* 
+ css/styles.css 
+ Student Name: Hamza Mousa
+ Student Id: 12428526
+*/
+
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+
+body {
+   
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+.class-12428526{
+    background-color: var(--bg);
+   
+}
+a{
+    color:var(--brand);
+    text-decoration: none;
+    margin:10px;
+    
+    
+}
+.site-header{
+     display: flex;
+     justify-content:space-between;
+     
+     border:black solid 1px;
+     padding:7px;
+    font-family:fantasy;
+    
+}
+#site-Margin{
+    position: relative;
+     left:100px;
+}
+#site-Margin2{
+    position: relative;
+     right:100px;
+}
+.hero{
+   position: relative;
+    
+    
+}
+.hero img{
+    
+    height:800px;
+    width:100%;
+}
+.insideImg{
+    
+    position: absolute;
+    color:white;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+     
+}
+.details{
+    display: inline-block;
+    background-color:var(--brand-2);
+    padding:7px;
+    border-radius: 30px;
+    color:#153e3e;
+    
+   
+}
+h1{
+    font-size: 40px;
+}
+.Button{
+    background-color: var(--brand);
+    width:140px;
+    height:50px;
+    border-radius: 25px;
+    color:white;
+    font-size: large;
+    font-family: fantasy;
+    
+}
+.click{
+    display: inline-block;
+    width:110px;
+    height:30px;
+    
+    color:white;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  font-family: Rubik;
+  margin-top: 43px;
+   
+  
+}
+.AboutLeft,.Note{
+   
+ height: 280px;
+  width: 35%;
+  border-radius: 15px;
+  background-color: var(--card);
+  border:solid 1px var(--border);
+  padding:20px;
+  box-shadow: 0 0px 13px 0px var(--border);
+}
+
+
+.AboutLeft {
+ 
+  
+  margin-right: 15px;
+  
+}
+
+
+#paragraph{
+    color:gray;
+    font-size:15px ;
+}
+
+.features{
+    display:flex;
+
+}
+.option{
+    
+    background-color: var(--card);
+    padding:10px;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border:1px solid var(--border);
+    position: relative;
+    bottom: 20px;
+   
+    
+}
+#menu{
+   display:flex;
+   justify-content: center;
+   position: relative;
+  
+}
+.align{
+    position: relative;
+    left:12.5%;
+    font-size:35px;
+    
+}
+.mains{
+    width:22%;
+    height:435px;
+    background-color: var(--card);
+    margin:10px;
+    border-radius: 15px;
+    border:1px solid var(--border);
+    padding:20px;
+     box-shadow: 0 0px 13px 0px var(--border);
+
+    
+    
+}
+.dishes{
+    display: flex;
+    justify-content: space-between;
+    padding:0;
+    position: relative;
+    bottom:20px;
+}
+#price{
+    color:#216869;
+}
+hr{
+    border-top:1px dashed lightgray;
+
+}
+.size{
+    position: relative;
+    bottom: 50px;
+}
+#distance{
+    position: relative;
+    bottom:60px;
+}
+#dis{
+     position: relative;
+     bottom:90px;
+}
+#distance2{
+    position: relative;
+    bottom:100px;
+}
+#dis2{
+    position: relative;
+    bottom:130px; 
+}
+
+
+.alignP{
+    position: relative;
+    left:12%;
+    bottom:20px;
+}
+#hours{
+    display:flex;
+    justify-content: center;
+
+}
+.Table{
+   width:35%;
+   height: 300px;
+   background-color: var(--card);
+   margin:10px;
+   border-radius: 15px;
+   border:1px solid var(--border);
+   padding:0px 20px 20px 20px;
+    box-shadow: 1px 1px 13px 0px var(--border);
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+#d0{
+   position: relative;
+    bottom: 15px; 
+}
+#d{
+    position: relative;
+    bottom: 25px;
+}
+#d2{
+    position: relative;
+    bottom: 35px;
+}
+#d3{
+    position: relative;
+    bottom: 47px;
+}
+#d4{
+    position: relative;
+    bottom:55px;
+}
+#d5{
+    position: relative;
+    bottom:65px;
+}
+#d6{
+    position: relative;
+    bottom:75px;
+}
+#d7{
+    position: relative;
+    bottom:85px;
+}
+#color{
+    color:#267e55;
+}
+#find-us{
+    display: flex;
+    justify-content: center;
+}
+
+.last,.last2{
+    width:37%;
+    height:250px;
+    margin:10px;
+    padding-left:20px;
+    background-color: var(--card);
+    border:solid 1px var(--border);
+    border-radius: 15px;
+     box-shadow: 1px 1px 13px 0px var(--border);
+}
+
+.last2{
+    padding-left: 0;
+    background-image: url("../images/map.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+h2{
+    font-size: 25px;
+}
+
+.site-footer{
+    display: flex;
+    justify-content: center;
+}
+.paragraph2{
+    color:gray;
+}
+@media (max-width:768px) {
+   #site-Margin{
+    left:0px
+   }
+   #site-Margin2{
+    right:0px
+   }
+   .hero img{
+    height:640px
+   }
+   #about{
+   display: inline-block;
+    
+
+   }
+   .AboutLeft,.Note{
+    width:70%;
+    position: relative;
+    left: 13%;
+    height:370px;
+    
+   }
+   .Note{
+    margin-top: 40px;
+   }
+   #menu{
+    flex-wrap: wrap;
+   }
+   .mains{
+     width:70%
+    }
+
+    #hours{
+        display: block;
+
+    }
+    .Table{
+        display: inline-block;
+        width:70%;
+        position: relative;
+        left:10%;
+        
+    }
+    #cont{
+        bottom:65px;
+    }
+
+    #find-us{
+        display: block;
+    }
+    .last{
+    
+        width:73%;
+        position: relative;
+        left: 10%;
+        bottom:45px;
+
+    }
+     .last2{
+         width:76%;
+        position: relative;
+        left: 10%;
+        bottom:45px;
+    }
+   
+    
+
+}
